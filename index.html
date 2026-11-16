@@ -1,0 +1,79 @@
+<!-- Name: Hamsa Mohamed Hassan Dawood | Student ID: 224101421 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamsa Mohamed - Profile</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+    <header>
+        <h1>Hamsa Mohamed Hassan Dawood</h1>
+        <nav class="navbar">
+            <span class="nav-name">Hamsa Mohamed</span>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#cards">Interests</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+   
+    <main>
+       
+        <section id="about" class="profile-section">
+            <img src="images/me.jpg" alt="Profile photo of Hamsa Mohamed" class="profile-img">
+            <div class="theme-control">
+                <button id="theme-btn" type="button">Toggle Dark Mode</button>
+            </div>
+        </section>
+
+        
+        <section id="cards" class="cards-container">
+            <div class="card">
+                <h3>Computer Science</h3>
+                <p>Student at Faculty of Computer Science & Engineering, passionate about AI, NLP, and Web Development.</p>
+            </div>
+            <div class="card">
+                <h3>Programming</h3>
+                <p>Experienced in Python, C#, MATLAB, and building clean web interfaces using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="card">
+                <h3>Sports & Hobbies</h3>
+                <p>Enthusiastic about playing football, continuous learning, and solving analytical problems.</p>
+            </div>
+        </section>
+
+       
+        <section id="contact" class="form-section">
+            <h2>Leave a Message</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="visitor-name">Name:</label>
+                    <input type="text" id="visitor-name" name="visitor-name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
+            
+            <p id="greeting-msg"></p>
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2026 Hamsa Mohamed Hassan Dawood. All rights reserved.</p>
+    </footer>
+
+   
+    <script src="js/script.js"></script>
+</body>
+</html>
